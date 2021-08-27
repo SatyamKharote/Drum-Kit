@@ -1,80 +1,106 @@
 body {
-  text-align: center;
-  background-color: #283149;
+    text-align: center;
+    background-color: #283149;
 }
 
 h1 {
-  font-size: 5rem;
-  color: #dbedf3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #da0463;
+    font-size: 5rem;
+    color: #dbedf3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #da0463;
 }
 
 footer {
-  color: #dbedf3;
-  font-family: sans-serif;
+    color: #dbedf3;
+    font-family: sans-serif;
+}
+
+.q {
+    background-image: url(images/tom1.png);
 }
 
 .w {
-  background-image: url(images/tom1.png);
+    background-image: url(images/tom2.png);
 }
 
-.a {
-  background-image: url(images/tom2.png);
+.e {
+    background-image: url(images/tom3.png);
 }
 
-.s {
-  background-image: url(images/tom3.png);
+.r {
+    background-image: url(images/tom4.png);
 }
 
-.d {
-  background-image: url(images/tom4.png);
+.t {
+    background-image: url(images/snare.png);
 }
 
-.j {
-  background-image: url(images/snare.png);
+.y {
+    background-size: 136px;
+    background-repeat: no-repeat;
+    background-image: url(images/snare\ drum.png);
 }
 
-.k {
-  background-image: url(images/crash.png);
+.u {
+    background-image: url(images/kick.png);
+}
+
+.i {
+    background-size: 136px;
+    background-position-y: 10px;
+    background-position-x: -10px;
+    background-repeat: no-repeat;
+    background-image: url(images/stick.png);
+}
+
+.o {
+    background-image: url(images/crash.png);
+}
+
+.p {
+    background-size: 136px;
+    background-repeat: no-repeat;
+    background-image: url(images/crash\ cymbal.jpg);
 }
 
 .l {
-  background-image: url(images/kick.png);
+    background-size: 136px;
+    background-repeat: no-repeat;
+    background-image: url(images/ride-cymbal.png);
 }
 
 .set {
-  margin: 10% auto;
+    margin: 10% auto;
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+    background-color: red;
+    opacity: 0.8;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
 }
 
 .red {
-  color: red;
+    color: red;
 }
 
 .drum {
-  outline: none;
-  border: 10px solid #404b69;
-  font-size: 5rem;
-  font-family: "Arvo", cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #da0463;
-  text-shadow: 3px 0 #dbedf3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+    outline: none;
+    border: 10px solid #404b69;
+    font-size: 5rem;
+    font-family: "Arvo", cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #da0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
 }
